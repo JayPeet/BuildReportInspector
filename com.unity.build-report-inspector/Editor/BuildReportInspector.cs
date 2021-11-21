@@ -648,7 +648,7 @@ namespace Unity.BuildReportInspector
 
         private void OnOutputFilesGUI()
         {
-            BuildFiles[] files = report.GetFiles();
+            BuildFile[] files = report.GetFiles();
             if (files.Length == 0)
                 return;
 
